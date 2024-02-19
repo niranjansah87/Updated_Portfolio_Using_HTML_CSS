@@ -1,8 +1,8 @@
-* {
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
+} */
 
 /* body {
   font-family: Poppins;
@@ -13,14 +13,16 @@
   /* background-color: var(--background); 
 } */
 
-
+body{
+  overflow-x: hidden;
+}
 
 
 .gallery {
   /* display: grid; */
-  margin-top: 36px;
-    position: absolute;
-    right: 445px;
+  margin-top: 55px;
+    position: relative;
+    right: -390px;
   place-items: center;
     display: flex;
     background-color:
@@ -28,7 +30,19 @@
     gap: 16px;
     scale: 1.6;
   }
-  
+  .gallery2 {
+    padding-top: 4em;
+    /* display: grid; */
+    margin-top: 55px;
+      position: relative;
+      right: -390px;
+    place-items: center;
+      display: flex;
+      background-color:
+        var(--background);
+      gap: 16px;
+      scale: 1.6;
+    }
   .card {
     position: relative;
     left: 0px;
